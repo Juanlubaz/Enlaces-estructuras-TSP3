@@ -1,126 +1,126 @@
-TAG NUMBER;ID;PACK;NAME OF STRUCTURE;DIRECTION OF DRAWING MANUFACTURING;DIRECTION OF DRAWING ERECTION;Sin clasificar
-TSP3-ST-001-PCK001-S;1;1;SUPPORT STRUCTURE FOR REACTORS (SOL TO BUNKER);https://drive.google.com/file/d/1vGjsXviRcs1ETY1b5KuXKDUEpejaYulq/view?usp=drive_link;https://drive.google.com/file/d/1NIWeW6TIWcy_9MjbhoJ_oFgAOir8DII5/view?usp=drive_link;
-TSP3-ST-002-PCK001-S;2;1;SUPPORT STRUCTURE FOR CAMPANAS AND REACTOR BEAMS;***************;***************;
-TSP3-ST-002-PCK002-S;2;2;SUPPORT STRUCTURE FOR CAMPANAS AND REACTOR BEAMS;***************;***************;
-TSP3-ST-003-PCK001-S;3;1;SUPPORT FOR REACTOR 1 DUCT;***************;***************;
-TSP3-ST-003-PCK002-S;3;2;SUPPORT FOR REACTOR 2 DUCT;***************;***************;
-TSP3-ST-004-PCK001-S;4;1;SOLID DOSING SYSTEM SUPPORT FOR REACTOR;***************;https://drive.google.com/file/d/1o_LX0NnR_xeXOLmTZili2iuo71CdGuUh/view?usp=drive_link;
-TSP3-ST-004-PCK002-S;4;2;FOUNDATION - BASE PLATES;***************;***************;https://drive.google.com/file/d/12ZMDJnWZ7S2HpPTeIRdOLueZur-4-u1I/view?usp=drive_link
-TSP3-ST-004-PCK002-S;4;2;FOUNDATION - BASE PLATES;***************;***************;https://drive.google.com/file/d/1B3Bnr_nSXpFgW62a-8lE7BS1g48v3I5v/view?usp=drive_link
-TSP3-ST-004-PCK002-S;4;2;FOUNDATION - BASE PLATES;***************;***************;https://drive.google.com/file/d/12LuAuR5ss9bALlfDUePiRHsihCS022av/view?usp=drive_link
-TSP3-ST-004-PCK002-S;4;2;FOUNDATION - BASE PLATES;***************;***************;https://drive.google.com/file/d/1J9PXKaXrbVgE_bwSkZBm9GSDhlT6j11z/view?usp=drive_link
-TSP3-ST-004-PCK002-S;4;2;FOUNDATION - BASE PLATES;***************;***************;https://drive.google.com/file/d/184AlXzn5HdopRKXHTi-UeAuGJFNtNvgD/view?usp=drive_link
-TSP3-ST-004-PCK002-S;4;2;FOUNDATION - BASE PLATES;***************;***************;https://drive.google.com/file/d/1tKo82_7z0vUJxSxfPVgdaDUaUc95uRwV/view?usp=drive_link
-TSP3-ST-004-PCK002-S;4;2;FOUNDATION - BASE PLATES;***************;***************;https://drive.google.com/file/d/11mmYoScPf2CFHhGDM19jcxPCfsmUsdjH/view?usp=drive_link
-TSP3-ST-004-PCK002-S;4;2;FOUNDATION - BASE PLATES;***************;***************;https://drive.google.com/file/d/1dbxr2DKpasXFIkCG-RzpE2Qys7pGmHbm/view?usp=drive_link
-TSP3-ST-004-PCK002-S;4;2;FOUNDATION - BASE PLATES;***************;***************;https://drive.google.com/file/d/1fyGOm-ogOv7WX-9BOGFE37c88NWw7cXl/view?usp=drive_link
-TSP3-ST-004-PCK003-S;4;3;FLOWMETERS CABINET;***************;*****************;*************
-TSP3-ST-005-PCK001-S;5;1;STRUCTURE FOR SCRUBBERS OF SOLUBILISATION;***************;https://drive.google.com/file/d/1PtkQYpaUSkfcJ0PmiUM7sCWBJtpiMIjA/view?usp=drive_link;
-TSP3-ST-005-PCK002-S;5;2;SUPPORT CHEMINEY;https://drive.google.com/file/d/1unCOCa6eLP_kJzQpUtv9m6O_XKdHC-ZW/view?usp=drive_link;https://drive.google.com/file/d/1ehBrOHdWiKlSGCN9QdmR-50JeUncilZx/view?usp=drive_link;
-TSP3-ST-005-PCK002-S;5;2;SUPPORT CHEMINEY;https://drive.google.com/file/d/1lRKWXe3LTUYmhO8L4-JA9fMI-7-uc89I/view?usp=drive_link;***************;
-TSP3-ST-005-PCK002-S;5;2;SUPPORT CHEMINEY;https://drive.google.com/file/d/1aOrntcjWlFdQ7wLFLZYRY-kpOq5Y_5tg/view?usp=drive_link;***************;
-TSP3-ST-005-PCK002-S;5;2;SUPPORT CHEMINEY;https://drive.google.com/file/d/1TB_fzXF6iqlrh1uxZNwbCdLvIl6St2_y/view?usp=drive_link;***************;
-TSP3-ST-005-PCK002-S;5;2;SUPPORT CHEMINEY;https://drive.google.com/file/d/1w0zskr9yHyvHxVblMNQj2njRRoLvLSCi/view?usp=drive_link;***************;
-TSP3-ST-005-PCK002-S;5;2;SUPPORT CHEMINEY;https://drive.google.com/file/d/1DMA8ebNL58bv0UDtQ4UILm4cXazRBmiS/view?usp=drive_link;***************;
-TSP3-ST-005-PCK002-S;5;2;SUPPORT CHEMINEY;https://drive.google.com/file/d/1bVKUDltJTrPJfikpgJWrBZ8oFtstTuYs/view?usp=drive_link;***************;
-TSP3-ST-005-PCK002-S;5;2;SUPPORT CHEMINEY;https://drive.google.com/file/d/1sYFgGLmM-r59QF92_9SrkHzPRGBsIsLT/view?usp=drive_link;***************;
-TSP3-ST-005-PCK002-S;5;2;SUPPORT CHEMINEY;https://drive.google.com/file/d/1rGEyU4PYboiwUpk02RKXaMnfcZcw_5fx/view?usp=drive_link;***************;
-TSP3-ST-006-PCK001-S;6;1;ELECTRICAL RACK FOR SOLUBILISATION;***************;***************;
-TSP3-ST-007-PCK001-S;7;1;STAIRCASE FOR ELECTRICAL RACK;***************;***************;***************
-TSP3-ST-008-PCK001-S;8;1;STRUCTURE FOR GRINDING STATION;***************;***************;***************
-TSP3-ST-009-PCK001-Q;9;1;RACK FOR LIQUID TRANSFER TO REACTOR;***************;***************;***************
-TSP3-ST-010-PCK001-Q;10;1;GENERAL RACK FOR LIQUID TRANSFER;***************;***************;***************
-TSP3-ST-011-PCK001-Q;11;1;RACK BETWEEN GENERAL RACK AND SULFURIC ACID ZONE;***************;***************;***************
-TSP3-ST-012-PCK001-Q;12;1;RACK BETWEEN GENERAL RACK AND PHOSPHORIC ACID ZONE;***************;***************;***************
-TSP3-ST-013-PCK001-Q;13;1;RACK BETWEEN GENERAL RACK AND GRANULATION VIROLE;***************;***************;***************
-TSP3-ST-014-PCK001-Q;14;1;WALKWAY ABOVE TANKS;***************;***************;***************
-TSP3-ST-015-PCK001-G;15;1;STRUCTURE_FOR_ROTARY_FILTERS;***************;https://drive.google.com/file/d/1gBJO9s8VQ004oLrWrZLxfJaMsROA7x3J/view?usp=drive_link;
-TSP3-ST-015-PCK002-G;15;2;STRUCTURE_FOR_ROTARY_FILTERS;***************;https://drive.google.com/file/d/1G9vwkPCl-DJAmL8ro1pfSXVLOH3UjGDO/view?usp=drive_link;
-TSP3-ST-015-PCK003-G;15;3;STRUCTURE_FOR_ROTARY_FILTERS;***************;https://drive.google.com/file/d/1VYVZKLEbxKjfxyXwsOemeAv9DvN67GAb/view?usp=drive_link;
-TSP3-ST-015-PCK004-G;15;4;PLATINES;https://drive.google.com/file/d/1p01vG6SsdxV4POls0zbyuWCD6I_hDucI/view?usp=drive_link;https://drive.google.com/file/d/1VA5x9iB-ZEhhYXRSVxe0FDw0ftJ1IEjT/view?usp=drive_link;
-TSP3-ST-015-PCK004-G;15;4;PLATINES;***************;https://drive.google.com/file/d/1MxmswJnBaVqF2yWIvhl4OpfMJvjxCR54/view?usp=drive_link;
-TSP3-ST-015-PCK004-G;15;4;PLATINES;***************;https://drive.google.com/file/d/1sF5Ws71aj_KizuqrD7uma7CT31B4mm57/view?usp=drive_link;
-TSP3-ST-015-PCK004-G;15;4;PLATINES;***************;https://drive.google.com/file/d/1GxMigL_DZmPqLpWlH0nFhJ-t6KusWHPd/view?usp=drive_link;
-TSP3-ST-015-PCK004-G;15;4;PLATINES;***************;https://drive.google.com/file/d/1txVHclgzOFU6l8EkCMQIMMShc9ejHOqa/view?usp=drive_link;
-TSP3-ST-015-PCK004-G;15;4;PLATINES;***************;https://drive.google.com/file/d/1nD3TQozBh77Zrwk6dLLIe83P6mqytLvU/view?usp=drive_link;
-TSP3-ST-015-PCK004-G;15;4;PLATINES;***************;https://drive.google.com/file/d/1g3GPyrI63xhViw9KgOyW1JtMLMI75BE6/view?usp=drive_link;
-TSP3-ST-015-PCK005-G;15;5;SUPPORTS;***************;***************;https://drive.google.com/file/d/1U5ygmwv7CwhkHntPIHYP-rgkWWDie4ru/view?usp=drive_link
-TSP3-ST-015-PCK006-G;15;6;STRUCTURE BETWEEN CRIBAS AND FILTRES ACCES;***************;https://drive.google.com/file/d/1cQPUawe0Fbmw0QNpL1fDeoqcR4p2ihGv/view?usp=drive_link;
-TSP3-ST-015-PCK007-G;15;7;SUPPORTS;***************;***************;
-TSP3-ST-016-PCK001-G;16;1;STRUCTURE, WALKWAYS AND STAIRS FOR CHIMNEY;***************;***************;https://drive.google.com/file/d/16S4X7XizhogjSTfC2tRrQChkArD5RpWZ/view?usp=drive_link
-TSP3-ST-016-PCK002-G;16;2;STRUCTURE, WALKWAYS AND STAIRS FOR CHIMNEY;***************;***************;
-TSP3-ST-017-PCK001-G;17;1;PIPE SUPPORT BETWEEN FILTERS AND VENTILATION SYSTEM;***************;***************;
-TSP3-ST-017-PCK002-G;17;2;PIPE SUPPORT BETWEEN FILTERS AND VENTILATION SYSTEM;***************;***************;
-TSP3-ST-018-PCK001-G;18;1;PIPE SUPPORT BETWEEN FILTERS AND CAMPANAS;***************;***************;
-TSP3-ST-018-PCK002-G;18;2;PIPE SUPPORT BETWEEN FILTERS AND CAMPANAS;***************;***************;
-TSP3-ST-018-PCK003-G;18;3;PIPE SUPPORT BETWEEN FILTERS AND CAMPANAS;***************;***************;
-TSP3-ST-019-PCK001-G;19;1;STRUCTURE FOR CAMPANAS S1&R1;***************;***************;
-TSP3-ST-019-PCK002-G;19;2;ACCESSORY CONVEYOR STRUCTURE;***************;***************;
-TSP3-ST-019-PCK003-G;19;3;STRUCTURE FOR CAMPANAS R2;***************;***************;
-TSP3-ST-019-PCK004-G;19;4;ACCESSORY CONVEYOR STRUCTURE;***************;***************;
-TSP3-ST-019-PCK005-G;19;5;ACCESSORY CONVEYOR STRUCTURE;***************;***************;
-TSP3-ST-019-PCK006-G;19;6;STRUCTURE FOR CAMPANAS S2;***************;***************;
-TSP3-ST-019-PCK007-G;19;7;STRUCTURE FOR CAMPANAS ACO;***************;***************;
-TSP3-ST-020-PCK001-G;20;1;PASSERELLE FOR ROTARIES S1;***************;***************;
-TSP3-ST-020-PCK002-G;20;2;PASSERELLE FOR ROTARIES R1;***************;***************;
-TSP3-ST-020-PCK003-G;20;3;PASSERELLE FOR ROTARIES R2;***************;***************;
-TSP3-ST-020-PCK004-G;20;4;PASSERELLE FOR ROTARIES S2;***************;***************;
-TSP3-ST-020-PCK005-G;20;5;PASSERELLE FOR ROTARIES ACO;***************;***************;
-TSP3-ST-021-PCK001-G;21;1;STRUCTURE FOR GRANULATOR AREA;***************;***************;
-TSP3-ST-021-PCK002-G;21;2;PLATINAS;https://drive.google.com/file/d/1wW1K-zovDPI9_ARoGCekX11-JHzJ64qK/view?usp=drive_link;https://drive.google.com/file/d/1dVrzSaZ4eXUEg9uiHVrW2_U2aQLa7zus/view?usp=drive_link;
-TSP3-ST-021-PCK003-G;21;3;TRANSFERENCE TOWER STRUCTURE OF BC04 AND 06;***************;***************;
-TSP3-ST-022-PCK001-G;22;1;STRUCTURE_FOR_COMBUSTION_CHAMBER R1;***************;***************;
-TSP3-ST-022-PCK002-G;22;2;STRUCTURE OF THE COMBUSTION CHAMBER FOR S1;***************;***************;
-TSP3-ST-022-PCK003-G;22;3;ACCESSORY CONVEYOR STRUCTURE;***************;***************;
-TSP3-ST-023-PCK001-G;23;1;STRUCTURE_FOR_COMBUSTION_CHAMBER R2;***************;***************;
-TSP3-ST-023-PCK002-G;23;2;ACCESSORY CONVEYOR STRUCTURE;***************;***************;
-TSP3-ST-024-PCK001-G;24;1;STRUCTURE_FOR_COMBUSTION_CHAMBER S2;***************;***************;
-TSP3-ST-024-PCK002-G;24;2;ACCESSORY CONVEYOR STRUCTURE;***************;***************;
-TSP3-ST-024-PCK003-G;24;3;ACCESSORY CONVEYOR STRUCTURE;***************;***************;
-TSP3-ST-024-PCK004-G;24;4;ACCESSORY CONVEYOR STRUCTURE;***************;***************;
-TSP3-ST-025-PCK001-G;25;1;PASSERELLE FOR ACONDICIONATOR;***************;***************;
-TSP3-ST-026-PCK001-G;26;1;FILTERS_SCREENING AREA;***************;https://drive.google.com/file/d/1DJUP2Qp1k0GdnGT6vgAaRz2F8rHrO4vL/view?usp=drive_link;
-TSP3-ST-026-PCK001-G;26;1;FILTERS_SCREENING AREA;***************;https://drive.google.com/file/d/1d1rw0t7I3qmzVqMtLInbSBa7CWDDklZE/view?usp=drive_link;
-TSP3-ST-026-PCK001-G;26;1;FILTERS_SCREENING AREA;***************;https://drive.google.com/file/d/1tAP9a0i4SepouLFgd0G62JKifIK7WCq_/view?usp=drive_link;
-TSP3-ST-026-PCK001-G;26;1;FILTERS_SCREENING AREA;***************;https://drive.google.com/file/d/1w12hvpoUIvcVJJN0jmngVoHGBwL3G2qw/view?usp=drive_link;
-TSP3-ST-026-PCK002-G;26;2;FILTERS_SCREENING AREA;***************;***************;
-TSP3-ST-026-PCK003-G;26;3;CONVOYEURS;***************;***************;
-TSP3-ST-026-PCK004-G;26;4;CONVOYEURS;***************;***************;
-TSP3-ST-027-PCK001-G;27;1;FILTERS_SCREENING AREA;***************;***************;
-TSP3-ST-027-PCK002-G;27;2;FILTERS_SCREENING AREA;***************;***************;
-TSP3-ST-028-PCK001-G;28;1;STRUCTURE FOR SCREENING AREA 1;***************;***************;
-TSP3-ST-028-PCK002-G;28;2;STRUCTURE FOR SCREENING AREA 1;***************;***************;
-TSP3-ST-029-PCK001-G;29;1;STRUCTURE FOR SCREENING AREA 2;***************;***************;
-TSP3-ST-029-PCK002-G;29;2;STRUCTURE FOR SCREENING AREA 2;***************;***************;
-TSP3-ST-030-PCK001-G;30;1;ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE;***************;***************;
-TSP3-ST-030-PCK002-G;30;2;ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE;***************;***************;
-TSP3-ST-030-PCK003-G;30;3;STRUCTURE AT THE GRANULATION ENTRANCE;***************;https://drive.google.com/file/d/1rrRYghD0QGCy_ukBsDgOqZzSoGTy1X5F/view?usp=drive_link;
-TSP3-ST-031-PCK001-G;31;1;ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE;***************;***************;
-TSP3-ST-031-PCK002-G;31;2;ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE;***************;***************;
-TSP3-ST-031-PCK003-G;31;3;THE CONVEYOR STRUCTURES TOWARD THE GRANULATOR;***************;***************;
-TSP3-ST-031-PCK004-G;31;4;ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE;***************;***************;
-TSP3-ST-031-PCK005-G;31;5;THE CONVEYOR STRUCTURES TOWARD THE GRANULATOR;***************;***************;
-TSP3-ST-031-PCK006-G;31;6;ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE;***************;***************;
-TSP3-ST-032-PCK001-G;32;1;GRANULATOR AREA;***************;***************;
-TSP3-ST-032-PCK002-G;32;2;THE CONVEYOR STRUCTURES TOWARD THE GRANULATOR;***************;***************;
-TSP3-ST-033-PCK001-G;33;1;THE CONVEYOR STRUCTURES;***************;***************;
-TSP3-ST-033-PCK002-G;33;2;THE CONVEYOR STRUCTURES;***************;***************;
-TSP3-ST-033-PCK003-G;33;3;THE CONVEYOR STRUCTURES;***************;***************;
-TSP3-ST-033-PCK004-G;33;4;THE CONVEYOR STRUCTURES;***************;***************;
-TSP3-ST-034-PCK001-G;34;1;CHEMINEY _SCREENING_AREA_1;***************;***************;
-TSP3-ST-034-PCK002-G;34;2;CHEMINEY _SCREENING_AREA_1;***************;***************;
-TSP3-ST-034-PCK003-G;34;3;CHEMINEY _SCREENING_AREA_1;***************;***************;
-TSP3-ST-034-PCK004-G;34;4;CHEMINEY _SCREENING_AREA_1;***************;***************;
-TSP3-ST-034-PCK005-G;34;5;CHEMINEY _SCREENING_AREA_1;***************;***************;
-TSP3-ST-034-PCK006-G;34;6;CHEMINEY _SCREENING_AREA_1;***************;***************;
-TSP3-ST-034-PCK007-G;34;7;CHEMINEY _SCREENING_AREA_2;***************;***************;
-TSP3-ST-035-PCK008-G;35;8;CHEMINEY _SCREENING_AREA_2;***************;***************;
-TSP3-ST-036-PCK001-G;36;1;PIPE SUPPORT BETWEEN FILTERS AND VENTILATION SYSTEM;***************;***************;
-TSP3-ST-037-PCK001-G;37;1;STRUCTURE FOR SCRUBBERS OF GRANULATION;***************;***************;
-TSP3-ST-038-PCK001-G;38;1;;;;
-TSP3-ST-038-PCK001-G;38;1;;;;
-TSP3-ST-038-PCK002-G;38;2;;;;
-TSP3-ST-038-PCK003-G;38;3;;;;
+TAG NUMBER,ID,PACK,NAME OF STRUCTURE,DIRECTION OF DRAWING MANUFACTURING,DIRECTION OF DRAWING ERECTION,Sin clasificar
+TSP3-ST-001-PCK001-S,1,1,SUPPORT STRUCTURE FOR REACTORS (SOL TO BUNKER),https://drive.google.com/file/d/1vGjsXviRcs1ETY1b5KuXKDUEpejaYulq/view?usp=drive_link,https://drive.google.com/file/d/1NIWeW6TIWcy_9MjbhoJ_oFgAOir8DII5/view?usp=drive_link,
+TSP3-ST-002-PCK001-S,2,1,SUPPORT STRUCTURE FOR CAMPANAS AND REACTOR BEAMS,***************,***************,
+TSP3-ST-002-PCK002-S,2,2,SUPPORT STRUCTURE FOR CAMPANAS AND REACTOR BEAMS,***************,***************,
+TSP3-ST-003-PCK001-S,3,1,SUPPORT FOR REACTOR 1 DUCT,***************,***************,
+TSP3-ST-003-PCK002-S,3,2,SUPPORT FOR REACTOR 2 DUCT,***************,***************,
+TSP3-ST-004-PCK001-S,4,1,SOLID DOSING SYSTEM SUPPORT FOR REACTOR,***************,https://drive.google.com/file/d/1o_LX0NnR_xeXOLmTZili2iuo71CdGuUh/view?usp=drive_link,
+TSP3-ST-004-PCK002-S,4,2,FOUNDATION - BASE PLATES,***************,***************,https://drive.google.com/file/d/12ZMDJnWZ7S2HpPTeIRdOLueZur-4-u1I/view?usp=drive_link
+TSP3-ST-004-PCK002-S,4,2,FOUNDATION - BASE PLATES,***************,***************,https://drive.google.com/file/d/1B3Bnr_nSXpFgW62a-8lE7BS1g48v3I5v/view?usp=drive_link
+TSP3-ST-004-PCK002-S,4,2,FOUNDATION - BASE PLATES,***************,***************,https://drive.google.com/file/d/12LuAuR5ss9bALlfDUePiRHsihCS022av/view?usp=drive_link
+TSP3-ST-004-PCK002-S,4,2,FOUNDATION - BASE PLATES,***************,***************,https://drive.google.com/file/d/1J9PXKaXrbVgE_bwSkZBm9GSDhlT6j11z/view?usp=drive_link
+TSP3-ST-004-PCK002-S,4,2,FOUNDATION - BASE PLATES,***************,***************,https://drive.google.com/file/d/184AlXzn5HdopRKXHTi-UeAuGJFNtNvgD/view?usp=drive_link
+TSP3-ST-004-PCK002-S,4,2,FOUNDATION - BASE PLATES,***************,***************,https://drive.google.com/file/d/1tKo82_7z0vUJxSxfPVgdaDUaUc95uRwV/view?usp=drive_link
+TSP3-ST-004-PCK002-S,4,2,FOUNDATION - BASE PLATES,***************,***************,https://drive.google.com/file/d/11mmYoScPf2CFHhGDM19jcxPCfsmUsdjH/view?usp=drive_link
+TSP3-ST-004-PCK002-S,4,2,FOUNDATION - BASE PLATES,***************,***************,https://drive.google.com/file/d/1dbxr2DKpasXFIkCG-RzpE2Qys7pGmHbm/view?usp=drive_link
+TSP3-ST-004-PCK002-S,4,2,FOUNDATION - BASE PLATES,***************,***************,https://drive.google.com/file/d/1fyGOm-ogOv7WX-9BOGFE37c88NWw7cXl/view?usp=drive_link
+TSP3-ST-004-PCK003-S,4,3,FLOWMETERS CABINET,***************,*****************,*************
+TSP3-ST-005-PCK001-S,5,1,STRUCTURE FOR SCRUBBERS OF SOLUBILISATION,***************,https://drive.google.com/file/d/1PtkQYpaUSkfcJ0PmiUM7sCWBJtpiMIjA/view?usp=drive_link,
+TSP3-ST-005-PCK002-S,5,2,SUPPORT CHEMINEY,https://drive.google.com/file/d/1unCOCa6eLP_kJzQpUtv9m6O_XKdHC-ZW/view?usp=drive_link,https://drive.google.com/file/d/1ehBrOHdWiKlSGCN9QdmR-50JeUncilZx/view?usp=drive_link,
+TSP3-ST-005-PCK002-S,5,2,SUPPORT CHEMINEY,https://drive.google.com/file/d/1lRKWXe3LTUYmhO8L4-JA9fMI-7-uc89I/view?usp=drive_link,***************,
+TSP3-ST-005-PCK002-S,5,2,SUPPORT CHEMINEY,https://drive.google.com/file/d/1aOrntcjWlFdQ7wLFLZYRY-kpOq5Y_5tg/view?usp=drive_link,***************,
+TSP3-ST-005-PCK002-S,5,2,SUPPORT CHEMINEY,https://drive.google.com/file/d/1TB_fzXF6iqlrh1uxZNwbCdLvIl6St2_y/view?usp=drive_link,***************,
+TSP3-ST-005-PCK002-S,5,2,SUPPORT CHEMINEY,https://drive.google.com/file/d/1w0zskr9yHyvHxVblMNQj2njRRoLvLSCi/view?usp=drive_link,***************,
+TSP3-ST-005-PCK002-S,5,2,SUPPORT CHEMINEY,https://drive.google.com/file/d/1DMA8ebNL58bv0UDtQ4UILm4cXazRBmiS/view?usp=drive_link,***************,
+TSP3-ST-005-PCK002-S,5,2,SUPPORT CHEMINEY,https://drive.google.com/file/d/1bVKUDltJTrPJfikpgJWrBZ8oFtstTuYs/view?usp=drive_link,***************,
+TSP3-ST-005-PCK002-S,5,2,SUPPORT CHEMINEY,https://drive.google.com/file/d/1sYFgGLmM-r59QF92_9SrkHzPRGBsIsLT/view?usp=drive_link,***************,
+TSP3-ST-005-PCK002-S,5,2,SUPPORT CHEMINEY,https://drive.google.com/file/d/1rGEyU4PYboiwUpk02RKXaMnfcZcw_5fx/view?usp=drive_link,***************,
+TSP3-ST-006-PCK001-S,6,1,ELECTRICAL RACK FOR SOLUBILISATION,https://drive.google.com/file/d/16leo8dbX10xrlbyvpUUqZvyvn1cmR83P/view?usp=drive_link,***************,
+TSP3-ST-007-PCK001-S,7,1,STAIRCASE FOR ELECTRICAL RACK,***************,***************,***************
+TSP3-ST-008-PCK001-S,8,1,STRUCTURE FOR GRINDING STATION,***************,***************,***************
+TSP3-ST-009-PCK001-Q,9,1,RACK FOR LIQUID TRANSFER TO REACTOR,***************,***************,***************
+TSP3-ST-010-PCK001-Q,10,1,GENERAL RACK FOR LIQUID TRANSFER,***************,***************,***************
+TSP3-ST-011-PCK001-Q,11,1,RACK BETWEEN GENERAL RACK AND SULFURIC ACID ZONE,***************,***************,***************
+TSP3-ST-012-PCK001-Q,12,1,RACK BETWEEN GENERAL RACK AND PHOSPHORIC ACID ZONE,***************,***************,***************
+TSP3-ST-013-PCK001-Q,13,1,RACK BETWEEN GENERAL RACK AND GRANULATION VIROLE,***************,***************,***************
+TSP3-ST-014-PCK001-Q,14,1,WALKWAY ABOVE TANKS,***************,***************,***************
+TSP3-ST-015-PCK001-G,15,1,STRUCTURE_FOR_ROTARY_FILTERS,***************,https://drive.google.com/file/d/1gBJO9s8VQ004oLrWrZLxfJaMsROA7x3J/view?usp=drive_link,
+TSP3-ST-015-PCK002-G,15,2,STRUCTURE_FOR_ROTARY_FILTERS,***************,https://drive.google.com/file/d/1G9vwkPCl-DJAmL8ro1pfSXVLOH3UjGDO/view?usp=drive_link,
+TSP3-ST-015-PCK003-G,15,3,STRUCTURE_FOR_ROTARY_FILTERS,***************,https://drive.google.com/file/d/1VYVZKLEbxKjfxyXwsOemeAv9DvN67GAb/view?usp=drive_link,
+TSP3-ST-015-PCK004-G,15,4,PLATINES,https://drive.google.com/file/d/1p01vG6SsdxV4POls0zbyuWCD6I_hDucI/view?usp=drive_link,https://drive.google.com/file/d/1VA5x9iB-ZEhhYXRSVxe0FDw0ftJ1IEjT/view?usp=drive_link,
+TSP3-ST-015-PCK004-G,15,4,PLATINES,***************,https://drive.google.com/file/d/1MxmswJnBaVqF2yWIvhl4OpfMJvjxCR54/view?usp=drive_link,
+TSP3-ST-015-PCK004-G,15,4,PLATINES,***************,https://drive.google.com/file/d/1sF5Ws71aj_KizuqrD7uma7CT31B4mm57/view?usp=drive_link,
+TSP3-ST-015-PCK004-G,15,4,PLATINES,***************,https://drive.google.com/file/d/1GxMigL_DZmPqLpWlH0nFhJ-t6KusWHPd/view?usp=drive_link,
+TSP3-ST-015-PCK004-G,15,4,PLATINES,***************,https://drive.google.com/file/d/1txVHclgzOFU6l8EkCMQIMMShc9ejHOqa/view?usp=drive_link,
+TSP3-ST-015-PCK004-G,15,4,PLATINES,***************,https://drive.google.com/file/d/1nD3TQozBh77Zrwk6dLLIe83P6mqytLvU/view?usp=drive_link,
+TSP3-ST-015-PCK004-G,15,4,PLATINES,***************,https://drive.google.com/file/d/1g3GPyrI63xhViw9KgOyW1JtMLMI75BE6/view?usp=drive_link,
+TSP3-ST-015-PCK005-G,15,5,SUPPORTS,***************,***************,https://drive.google.com/file/d/1U5ygmwv7CwhkHntPIHYP-rgkWWDie4ru/view?usp=drive_link
+TSP3-ST-015-PCK006-G,15,6,STRUCTURE BETWEEN CRIBAS AND FILTRES ACCES,***************,https://drive.google.com/file/d/1cQPUawe0Fbmw0QNpL1fDeoqcR4p2ihGv/view?usp=drive_link,
+TSP3-ST-015-PCK007-G,15,7,SUPPORTS,***************,***************,
+TSP3-ST-016-PCK001-G,16,1,"STRUCTURE, WALKWAYS AND STAIRS FOR CHIMNEY",***************,***************,https://drive.google.com/file/d/16S4X7XizhogjSTfC2tRrQChkArD5RpWZ/view?usp=drive_link
+TSP3-ST-016-PCK002-G,16,2,"STRUCTURE, WALKWAYS AND STAIRS FOR CHIMNEY",***************,***************,
+TSP3-ST-017-PCK001-G,17,1,PIPE SUPPORT BETWEEN FILTERS AND VENTILATION SYSTEM,***************,***************,
+TSP3-ST-017-PCK002-G,17,2,PIPE SUPPORT BETWEEN FILTERS AND VENTILATION SYSTEM,***************,***************,
+TSP3-ST-018-PCK001-G,18,1,PIPE SUPPORT BETWEEN FILTERS AND CAMPANAS,***************,***************,
+TSP3-ST-018-PCK002-G,18,2,PIPE SUPPORT BETWEEN FILTERS AND CAMPANAS,***************,***************,
+TSP3-ST-018-PCK003-G,18,3,PIPE SUPPORT BETWEEN FILTERS AND CAMPANAS,***************,***************,
+TSP3-ST-019-PCK001-G,19,1,STRUCTURE FOR CAMPANAS S1&R1,***************,***************,
+TSP3-ST-019-PCK002-G,19,2,ACCESSORY CONVEYOR STRUCTURE,***************,***************,
+TSP3-ST-019-PCK003-G,19,3,STRUCTURE FOR CAMPANAS R2,***************,***************,
+TSP3-ST-019-PCK004-G,19,4,ACCESSORY CONVEYOR STRUCTURE,***************,***************,
+TSP3-ST-019-PCK005-G,19,5,ACCESSORY CONVEYOR STRUCTURE,***************,***************,
+TSP3-ST-019-PCK006-G,19,6,STRUCTURE FOR CAMPANAS S2,***************,***************,
+TSP3-ST-019-PCK007-G,19,7,STRUCTURE FOR CAMPANAS ACO,***************,***************,
+TSP3-ST-020-PCK001-G,20,1,PASSERELLE FOR ROTARIES S1,***************,***************,
+TSP3-ST-020-PCK002-G,20,2,PASSERELLE FOR ROTARIES R1,***************,***************,
+TSP3-ST-020-PCK003-G,20,3,PASSERELLE FOR ROTARIES R2,***************,***************,
+TSP3-ST-020-PCK004-G,20,4,PASSERELLE FOR ROTARIES S2,***************,***************,
+TSP3-ST-020-PCK005-G,20,5,PASSERELLE FOR ROTARIES ACO,***************,***************,
+TSP3-ST-021-PCK001-G,21,1,STRUCTURE FOR GRANULATOR AREA,***************,***************,
+TSP3-ST-021-PCK002-G,21,2,PLATINAS,https://drive.google.com/file/d/1wW1K-zovDPI9_ARoGCekX11-JHzJ64qK/view?usp=drive_link,https://drive.google.com/file/d/1dVrzSaZ4eXUEg9uiHVrW2_U2aQLa7zus/view?usp=drive_link,
+TSP3-ST-021-PCK003-G,21,3,TRANSFERENCE TOWER STRUCTURE OF BC04 AND 06,***************,***************,
+TSP3-ST-022-PCK001-G,22,1,STRUCTURE_FOR_COMBUSTION_CHAMBER R1,***************,***************,
+TSP3-ST-022-PCK002-G,22,2,STRUCTURE OF THE COMBUSTION CHAMBER FOR S1,***************,***************,
+TSP3-ST-022-PCK003-G,22,3,ACCESSORY CONVEYOR STRUCTURE,***************,***************,
+TSP3-ST-023-PCK001-G,23,1,STRUCTURE_FOR_COMBUSTION_CHAMBER R2,***************,***************,
+TSP3-ST-023-PCK002-G,23,2,ACCESSORY CONVEYOR STRUCTURE,***************,***************,
+TSP3-ST-024-PCK001-G,24,1,STRUCTURE_FOR_COMBUSTION_CHAMBER S2,***************,***************,
+TSP3-ST-024-PCK002-G,24,2,ACCESSORY CONVEYOR STRUCTURE,***************,***************,
+TSP3-ST-024-PCK003-G,24,3,ACCESSORY CONVEYOR STRUCTURE,***************,***************,
+TSP3-ST-024-PCK004-G,24,4,ACCESSORY CONVEYOR STRUCTURE,***************,***************,
+TSP3-ST-025-PCK001-G,25,1,PASSERELLE FOR ACONDICIONATOR,***************,***************,
+TSP3-ST-026-PCK001-G,26,1,FILTERS_SCREENING AREA,***************,https://drive.google.com/file/d/1DJUP2Qp1k0GdnGT6vgAaRz2F8rHrO4vL/view?usp=drive_link,
+TSP3-ST-026-PCK001-G,26,1,FILTERS_SCREENING AREA,***************,https://drive.google.com/file/d/1d1rw0t7I3qmzVqMtLInbSBa7CWDDklZE/view?usp=drive_link,
+TSP3-ST-026-PCK001-G,26,1,FILTERS_SCREENING AREA,***************,https://drive.google.com/file/d/1tAP9a0i4SepouLFgd0G62JKifIK7WCq_/view?usp=drive_link,
+TSP3-ST-026-PCK001-G,26,1,FILTERS_SCREENING AREA,***************,https://drive.google.com/file/d/1w12hvpoUIvcVJJN0jmngVoHGBwL3G2qw/view?usp=drive_link,
+TSP3-ST-026-PCK002-G,26,2,FILTERS_SCREENING AREA,***************,***************,
+TSP3-ST-026-PCK003-G,26,3,CONVOYEURS,***************,***************,
+TSP3-ST-026-PCK004-G,26,4,CONVOYEURS,***************,***************,
+TSP3-ST-027-PCK001-G,27,1,FILTERS_SCREENING AREA,***************,***************,
+TSP3-ST-027-PCK002-G,27,2,FILTERS_SCREENING AREA,***************,***************,
+TSP3-ST-028-PCK001-G,28,1,STRUCTURE FOR SCREENING AREA 1,***************,***************,
+TSP3-ST-028-PCK002-G,28,2,STRUCTURE FOR SCREENING AREA 1,***************,***************,
+TSP3-ST-029-PCK001-G,29,1,STRUCTURE FOR SCREENING AREA 2,***************,***************,
+TSP3-ST-029-PCK002-G,29,2,STRUCTURE FOR SCREENING AREA 2,***************,***************,
+TSP3-ST-030-PCK001-G,30,1,ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE,***************,***************,
+TSP3-ST-030-PCK002-G,30,2,ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE,***************,***************,
+TSP3-ST-030-PCK003-G,30,3,STRUCTURE AT THE GRANULATION ENTRANCE,***************,https://drive.google.com/file/d/1rrRYghD0QGCy_ukBsDgOqZzSoGTy1X5F/view?usp=drive_link,
+TSP3-ST-031-PCK001-G,31,1,ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE,***************,***************,
+TSP3-ST-031-PCK002-G,31,2,ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE,***************,***************,
+TSP3-ST-031-PCK003-G,31,3,THE CONVEYOR STRUCTURES TOWARD THE GRANULATOR,***************,***************,
+TSP3-ST-031-PCK004-G,31,4,ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE,***************,***************,
+TSP3-ST-031-PCK005-G,31,5,THE CONVEYOR STRUCTURES TOWARD THE GRANULATOR,***************,***************,
+TSP3-ST-031-PCK006-G,31,6,ACCESSORY CONVEYOR STRUCTURETHE GRANULATION ENTRANCE,***************,***************,
+TSP3-ST-032-PCK001-G,32,1,GRANULATOR AREA,***************,***************,
+TSP3-ST-032-PCK002-G,32,2,THE CONVEYOR STRUCTURES TOWARD THE GRANULATOR,***************,***************,
+TSP3-ST-033-PCK001-G,33,1,THE CONVEYOR STRUCTURES,***************,***************,
+TSP3-ST-033-PCK002-G,33,2,THE CONVEYOR STRUCTURES,***************,***************,
+TSP3-ST-033-PCK003-G,33,3,THE CONVEYOR STRUCTURES,***************,***************,
+TSP3-ST-033-PCK004-G,33,4,THE CONVEYOR STRUCTURES,***************,***************,
+TSP3-ST-034-PCK001-G,34,1,CHEMINEY _SCREENING_AREA_1,***************,***************,
+TSP3-ST-034-PCK002-G,34,2,CHEMINEY _SCREENING_AREA_1,***************,***************,
+TSP3-ST-034-PCK003-G,34,3,CHEMINEY _SCREENING_AREA_1,***************,***************,
+TSP3-ST-034-PCK004-G,34,4,CHEMINEY _SCREENING_AREA_1,***************,***************,
+TSP3-ST-034-PCK005-G,34,5,CHEMINEY _SCREENING_AREA_1,***************,***************,
+TSP3-ST-034-PCK006-G,34,6,CHEMINEY _SCREENING_AREA_1,***************,***************,
+TSP3-ST-034-PCK007-G,34,7,CHEMINEY _SCREENING_AREA_2,***************,***************,
+TSP3-ST-035-PCK008-G,35,8,CHEMINEY _SCREENING_AREA_2,***************,***************,
+TSP3-ST-036-PCK001-G,36,1,PIPE SUPPORT BETWEEN FILTERS AND VENTILATION SYSTEM,***************,***************,
+TSP3-ST-037-PCK001-G,37,1,STRUCTURE FOR SCRUBBERS OF GRANULATION,***************,***************,
+TSP3-ST-038-PCK001-G,38,1,,,,
+TSP3-ST-038-PCK001-G,38,1,,,,
+TSP3-ST-038-PCK002-G,38,2,,,,
+TSP3-ST-038-PCK003-G,38,3,,,,
 ;;;;;;
 ;;;;;;
 ;;;;;;
@@ -1012,11 +1012,4 @@ TSP3-ST-038-PCK003-G;38;3;;;;
 ;;;;;;
 ;;;;;;
 ;;;;;;
-;;;;;;
-;;;;;;
-;;;;;;
-;;;;;;
-;;;;;;
-;;;;;;
-;;;;;;
-;;;;;;
+
