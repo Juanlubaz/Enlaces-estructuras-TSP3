@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Estructuras</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #5a7f3a 0%, #8fbc3f 50%, #6b8e23 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      padding: 30px;
+    }
+
+    h1 {
+      color: #5a7f3a;
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+
+    .logos-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 30px;
+      padding: 20px;
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      border-radius: 15px;
+    }
+
+    .logo {
+      max-width: 180px;
+      height: auto;
+    }
+
+    .logo-separator {
+      font-size: 1.5em;
+      color: #6c757d;
+      font-weight: 300;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      color: #555;
+      font-weight: 600;
+      margin-bottom: 8px;
+      font-size: 1.1em;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 15px;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      font-size: 16px;
+      background: white;
+      cursor: pointer;
+      transition: border-color 0.3s;
+    }
+
+    select:focus {
+      outline: none;
+      border-color: #8fbc3f;
+    }
+
+    select:disabled {
+      background: #f5f5f5;
+      cursor: not-allowed;
+    }
+
+    .info-box {
+      background: linear-gradient(135deg, #5a7f3a 0%, #8fbc3f 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 15px;
+      margin: 25px 0;
+      box-shadow: 0 5px 15px rgba(90, 127, 58, 0.4);
+    }
+
+    .info-box h3 {
+      margin-bottom: 10px;
+      font-size: 0.9em;
+      opacity: 0.9;
+    }
+
+    .info-box p {
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+
+    .buttons-section {
+      margin-top: 30px;
+    }
+
+    .buttons-section h3 {
+      color: #5a7f3a;
+      margin-bottom: 15px;
+      font-size: 1.2em;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: white;
+    }
+
+    .btn-manufacturing {
+      background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    }
+
+    .btn-manufacturing:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 20px rgba(17, 153, 142, 0.4);
+    }
+
+    .btn-erection {
+      background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    }
+
+    .btn-erection:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 20px rgba(79, 172, 254, 0.4);
+    }
+
+    .loading, .error {
+      text-align: center;
+      padding: 40px;
+    }
+
+    .spinner {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #8fbc3f;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 20px;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .error {
+      color: #e74c3c;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      .logos-container {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .logo {
+        max-width: 140px;
+      }
+
+      .logo-separator {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p>Cargando datos...</p>
+    </div>
+
+    <div id="error" class="error hidden">
+      <h2>⚠️ Error</h2>
+      <p id="errorMessage"></p>
+      <button class="btn btn-manufacturing" onclick="location.reload()">Reintentar</button>
+    </div>
+
+    <div id="app" class="hidden">
+      <div class="logos-container">
+        <img src="https://raw.githubusercontent.com/Juanlubaz/Enlaces-estructuras-TSP3/main/OFAS.png" alt="OFAS Logo" class="logo">
+        <span class="logo-separator">×</span>
+        <img src="https://raw.githubusercontent.com/Juanlubaz/Enlaces-estructuras-TSP3/main/GESTI.png" alt="GESTIPROJEC Logo" class="logo">
+      </div>
+      
+      <h1>📊 Consulta de Estructuras</h1>
+
+      <div class="form-group">
+        <label for="selectId">Structure number:</label>
+        <select id="selectId">
+          <option value="">-- Selecciona un ID --</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="selectPack">Select Pack:</label>
+        <select id="selectPack" disabled>
+          <option value="">-- Selecciona un PACK --</option>
+        </select>
+      </div>
+
+      <div id="infoSection" class="hidden">
+        <div class="info-box">
+          <h3>Structure name:</h3>
+          <p id="structureName"></p>
+        </div>
+
+        <div class="buttons-section">
+          <h3>Documentación:</h3>
+          <div id="buttonsContainer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var data = [];
+    var selectedId = '';
+    var selectedPack = '';
+    var GITHUB_URL = 'https://raw.githubusercontent.com/Juanlubaz/Enlaces-estructuras-TSP3/refs/heads/main/Enlaces.csv';
+
+    function loadCSVFromGithub() {
+      fetch(GITHUB_URL)
+        .then(function(response) {
+          if (!response.ok) {
+            throw new Error('No se pudo cargar el archivo CSV');
+          }
+          return response.text();
+        })
+        .then(function(csvText) {
+          Papa.parse(csvText, {
+            header: true,
+            skipEmptyLines: true,
+            dynamicTyping: false,
+            transformHeader: function(header) {
+              return header.trim();
+            },
+            transform: function(value) {
+              return typeof value === 'string' ? value.trim() : value;
+            },
+            complete: function(results) {
+              data = results.data;
+              console.log('Datos cargados:', data.length, 'filas');
+              console.log('Primera fila:', data[0]);
+              console.log('Columnas:', Object.keys(data[0] || {}));
+              
+              populateIdSelect();
+              
+              document.getElementById('loading').classList.add('hidden');
+              document.getElementById('app').classList.remove('hidden');
+            },
+            error: function(err) {
+              throw new Error('Error al parsear CSV: ' + err.message);
+            }
+          });
+        })
+        .catch(function(err) {
+          console.error('Error completo:', err);
+          document.getElementById('loading').classList.add('hidden');
+          document.getElementById('error').classList.remove('hidden');
+          document.getElementById('errorMessage').textContent = err.message;
+        });
+    }
+
+    function populateIdSelect() {
+      var selectId = document.getElementById('selectId');
+      selectId.innerHTML = '<option value="">-- Selecciona un ID --</option>';
+      
+      var ids = [];
+      for (var i = 0; i < data.length; i++) {
+        if (data[i].ID) {
+          ids.push(data[i].ID);
+        }
+      }
+      
+      var uniqueIds = [];
+      for (var j = 0; j < ids.length; j++) {
+        if (uniqueIds.indexOf(ids[j]) === -1) {
+          uniqueIds.push(ids[j]);
+        }
+      }
+      
+      console.log('IDs únicos encontrados:', uniqueIds);
+      
+      for (var k = 0; k < uniqueIds.length; k++) {
+        var option = document.createElement('option');
+        option.value = uniqueIds[k];
+        option.textContent = uniqueIds[k];
+        selectId.appendChild(option);
+      }
+    }
+
+    function onIdChange() {
+      var selectId = document.getElementById('selectId');
+      var selectPack = document.getElementById('selectPack');
+      var infoSection = document.getElementById('infoSection');
+      
+      selectedId = selectId.value;
+      
+      console.log('=== ID seleccionado:', selectedId, '===');
+      
+      selectPack.innerHTML = '<option value="">-- Selecciona un PACK --</option>';
+      selectPack.disabled = !selectedId;
+      infoSection.classList.add('hidden');
+      
+      if (selectedId) {
+        var filteredData = [];
+        for (var i = 0; i < data.length; i++) {
+          console.log('Fila', i, '- ID:', data[i].ID, '- Coincide:', data[i].ID === selectedId);
+          if (data[i].ID && data[i].ID.toString() === selectedId.toString()) {
+            filteredData.push(data[i]);
+            console.log('  -> Coincidencia encontrada! PACK:', data[i].PACK);
+          }
+        }
+        
+        console.log('Total filas filtradas:', filteredData.length);
+        
+        var packs = [];
+        for (var j = 0; j < filteredData.length; j++) {
+          if (filteredData[j].PACK) {
+            packs.push(filteredData[j].PACK);
+          }
+        }
+        
+        console.log('PACKs extraídos:', packs);
+        
+        var uniquePacks = [];
+        for (var k = 0; k < packs.length; k++) {
+          if (uniquePacks.indexOf(packs[k]) === -1) {
+            uniquePacks.push(packs[k]);
+          }
+        }
+        
+        console.log('PACKs únicos:', uniquePacks);
+        
+        for (var m = 0; m < uniquePacks.length; m++) {
+          var option = document.createElement('option');
+          option.value = uniquePacks[m];
+          option.textContent = uniquePacks[m];
+          selectPack.appendChild(option);
+        }
+        
+        if (uniquePacks.length === 0) {
+          console.warn('⚠️ No se encontraron PACKs para este ID');
+        }
+      }
+    }
+
+    function onPackChange() {
+      var selectPack = document.getElementById('selectPack');
+      selectedPack = selectPack.value;
+      
+      console.log('PACK seleccionado:', selectedPack);
+      
+      if (selectedId && selectedPack) {
+        var item = null;
+        for (var i = 0; i < data.length; i++) {
+          if (data[i].ID === selectedId && data[i].PACK === selectedPack) {
+            item = data[i];
+            break;
+          }
+        }
+        
+        if (item) {
+          console.log('Item encontrado:', item);
+          displayItemInfo(item);
+        }
+      } else {
+        document.getElementById('infoSection').classList.add('hidden');
+      }
+    }
+
+    function displayItemInfo(item) {
+      var structureName = document.getElementById('structureName');
+      var buttonsContainer = document.getElementById('buttonsContainer');
+      var infoSection = document.getElementById('infoSection');
+      
+      structureName.textContent = item['NAME OF STRUCTURE'] || 'No disponible';
+      
+      buttonsContainer.innerHTML = '';
+      
+      if (item['DIRECTION OF DRAWING MANUFACTURING']) {
+        var btn1 = document.createElement('button');
+        btn1.className = 'btn btn-manufacturing';
+        btn1.innerHTML = '<span>🏭</span> DIRECTION OF DRAWING MANUFACTURING';
+        btn1.onclick = function() {
+          window.open(item['DIRECTION OF DRAWING MANUFACTURING'], '_blank');
+        };
+        buttonsContainer.appendChild(btn1);
+      }
+      
+      if (item['DIRECTION OF DRAWING ERECTION']) {
+        var btn2 = document.createElement('button');
+        btn2.className = 'btn btn-erection';
+        btn2.innerHTML = '<span>🏗️</span> DIRECTION OF DRAWING ERECTION';
+        btn2.onclick = function() {
+          window.open(item['DIRECTION OF DRAWING ERECTION'], '_blank');
+        };
+        buttonsContainer.appendChild(btn2);
+      }
+      
+      if (!item['DIRECTION OF DRAWING MANUFACTURING'] && !item['DIRECTION OF DRAWING ERECTION']) {
+        buttonsContainer.innerHTML = '<p style="text-align: center; color: #999; font-style: italic;">No hay enlaces disponibles</p>';
+      }
+      
+      infoSection.classList.remove('hidden');
+    }
+
+    document.getElementById('selectId').addEventListener('change', onIdChange);
+    document.getElementById('selectPack').addEventListener('change', onPackChange);
+
+    loadCSVFromGithub();
+  </script>
+</body>
+</html>
