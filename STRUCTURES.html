@@ -390,29 +390,25 @@
       }
     }
 
-    function onPackChange() {
-      var selectPack = document.getElementById('selectPack');
-      selectedPack = selectPack.value;
-      
-      console.log('PACK seleccionado:', selectedPack);
-      
-      if (selectedId && selectedPack) {
-        var item = null;
-        for (var i = 0; i < data.length; i++) {
-          if (data[i].ID === selectedId && data[i].PACK === selectedPack) {
-            item = data[i];
-            break;
-          }
+function onPackChange() {
+    var selectPack = document.getElementById('selectPack');
+    selectedPack = selectPack.value;
+
+    if (selectedId && selectedPack) {
+        var items = data.filter(row =>
+            row.ID === selectedId && row.PACK === selectedPack
+        );
+
+        if (items.length > 0) {
+            displayMergedInfo(items);
+        } else {
+            document.getElementById('infoSection').classList.add('hidden');
         }
-        
-        if (item) {
-          console.log('Item encontrado:', item);
-          displayItemInfo(item);
-        }
-      } else {
+    } else {
         document.getElementById('infoSection').classList.add('hidden');
-      }
     }
+}
+
 
     function displayItemInfo(item) {
       var structureName = document.getElementById('structureName');
@@ -448,7 +444,80 @@
       }
       
       infoSection.classList.remove('hidden');
+    }function displayMergedInfo(items) {
+    var structureName = document.getElementById('structureName');
+    var buttonsContainer = document.getElementById('buttonsContainer');
+    var infoSection = document.getElementById('infoSection');
+
+    structureName.textContent = items[0]['NAME OF STRUCTURE'] || 'No disponible';
+    buttonsContainer.innerHTML = '';
+
+    // Obtener listas
+    var manufacturingLinks = items
+        .map(item => item['DIRECTION OF DRAWING MANUFACTURING'])
+        .filter(link => link);
+
+    var erectionLinks = items
+        .map(item => item['DIRECTION OF DRAWING ERECTION'])
+        .filter(link => link);
+
+    // Crear botón general
+    function createDropdownButton(title, icon, links, colorClass) {
+        if (links.length === 0) return;
+
+        // Botón principal
+        var btn = document.createElement('button');
+        btn.className = 'btn ' + colorClass;
+        btn.innerHTML = `<span>${icon}</span> ${title}`;
+
+        // Contenedor del menú
+        var menu = document.createElement('div');
+        menu.style.display = 'none';
+        menu.style.marginTop = '10px';
+        menu.style.background = '#f7f7f7';
+        menu.style.border = '1px solid #ddd';
+        menu.style.borderRadius = '10px';
+        menu.style.padding = '10px';
+
+        // Añadir opciones dentro del menú
+        links.forEach((link, index) => {
+            var option = document.createElement('div');
+            option.style.padding = '10px';
+            option.style.cursor = 'pointer';
+            option.style.borderBottom = index < links.length - 1 ? '1px solid #ddd' : 'none';
+            option.textContent = `${title} – opción ${index + 1}`;
+            option.onclick = () => window.open(link, '_blank');
+            menu.appendChild(option);
+        });
+
+        // Toggle menú
+        btn.onclick = function () {
+            menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+        };
+
+        buttonsContainer.appendChild(btn);
+        buttonsContainer.appendChild(menu);
     }
+
+    // Crear menú para MANUFACTURING
+    createDropdownButton(
+        "DIRECTION OF DRAWING MANUFACTURING",
+        "🏭",
+        manufacturingLinks,
+        "btn-manufacturing"
+    );
+
+    // Crear menú para ERECTION
+    createDropdownButton(
+        "DIRECTION OF DRAWING ERECTION",
+        "🏗️",
+        erectionLinks,
+        "btn-erection"
+    );
+
+    infoSection.classList.remove('hidden');
+}
+
 
     document.getElementById('selectId').addEventListener('change', onIdChange);
     document.getElementById('selectPack').addEventListener('change', onPackChange);
